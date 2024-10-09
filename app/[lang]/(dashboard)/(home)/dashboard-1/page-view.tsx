@@ -21,7 +21,7 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 import { GoDotFill } from "react-icons/go";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { useState } from "react";
-import Table from "../employees/components/Table";
+import Table from "@/components/common/Table";
 
 interface DashboardPageViewProps {
   trans: {
