@@ -7,10 +7,10 @@ import UserDeviceReport from "./components/user-device-report";
 import UserStats from "./components/user-stats-chart";
 import UsersStat from "./components/users-stat";
 import ReportsArea from "./components/reports-area";
-import DashboardSelect from "@/components/dasboard-select";
+// import DashboardSelect from "@/components/dasboard-select";
 import TopTen from "./components/top-ten";
 import TopPage from "./components/top-page";
-import DatePickerWithRange from "@/components/date-picker-with-range";
+// import DatePickerWithRange from "@/components/date-picker-with-range";
 import {
   ttCommonsMedium,
   ttCommonsRegular,
