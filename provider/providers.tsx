@@ -7,7 +7,6 @@ import { Toaster as ReactToaster } from "@/components/ui/toaster";
 import { Toaster } from "react-hot-toast";
 import { SonnToaster } from "@/components/ui/sonner";
 import { usePathname } from "next/navigation";
-import GlobalModal from "@/components/modal/GlobalModal";
 
 const inter = Inter({ subsets: ["latin"] });
 const Providers = ({ children }: { children: React.ReactNode }) => {

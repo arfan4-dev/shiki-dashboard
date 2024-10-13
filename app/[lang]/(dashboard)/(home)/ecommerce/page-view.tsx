@@ -16,12 +16,8 @@ import TopSell from "./components/top-sell";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import DashboardDropdown from "@/components/dashboard-dropdown";
 import DatePickerWithRange from "@/components/date-picker-with-range";
-interface EcommercePageViewProps {
-  trans: {
-    [key: string]: string;
-  };
-}
-const EcommercePageView = ({ trans }:EcommercePageViewProps) => {
+
+const EcommercePageView = () => {
   return (
     <div className="space-y-6">
       <div className="flex flex-wrap gap-4 items-center justify-between">
@@ -57,7 +53,6 @@ const EcommercePageView = ({ trans }:EcommercePageViewProps) => {
           </Card>
         </div>
         <div className="col-span-12 lg:col-span-4">
-
           <Card className="py-2.5">
             <CardHeader className="flex-row items-center justify-between gap-4 border-none">
               <CardTitle>Top Browser</CardTitle>

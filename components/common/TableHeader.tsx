@@ -1,7 +1,7 @@
 import { ttCommonsMedium } from "@/utils/fonts";
 import React from "react";
 
-const TableHeader = ({ data }: any) => {
+const TableHeader = ({ btnName }: any) => {
   return (
     <div>
       <div className="flex items-center justify-between pb-5 pt-4 px-10">
@@ -9,7 +9,7 @@ const TableHeader = ({ data }: any) => {
           className={`text-[20px] font-medium text-[#282F5A] ${ttCommonsMedium.className}`}
         >
           {" "}
-          {data}
+          {btnName}
         </p>
 
         <form>

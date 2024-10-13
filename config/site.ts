@@ -2,7 +2,7 @@
 
 
 export const siteConfig = {
-  name: "DashTail Next js Admin Template",
+  name: "Shiki Dashboard - Manage Everything at One Place",
   description: null,
   theme: "violet",
   layout: "vertical",
